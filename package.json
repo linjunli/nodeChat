@@ -13,5 +13,5 @@
   },
   "dependencies": {
     "express": "^4.15.1",
-    "socket.io": "^1.7.3"
+    "socket.io": "1.7.3"
   }
