@@ -1,5 +1,4 @@
 {
-
   "name": "my",
   "version": "1.0.0",
   "description": "my first",
@@ -7,12 +6,11 @@
   "devDependencies": {},
   "author": "llj",
   "license": "ISC",
-   "scripts": {
+  "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.1",
-    "socket.io": "1.7.3"
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
   }
 }
-
