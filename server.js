@@ -781,7 +781,9 @@ var app = express(),
     io = require('socket.io').listen(server),
     users = [];
 app.use('/', express.static(__dirname + '/www'));//指定静态html文件位置
-server.listen(8000);
+const port = process.env.PORT || 80;
+server.listen(port, function(){
+});
 
 io.on('connection', (socket) => {
     socket.on('login', (nickname) => {
